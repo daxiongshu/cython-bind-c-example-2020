@@ -1,7 +1,4 @@
-#include <hi.hpp>
-#include <cstdio>
-#include <string>
-#include <vector>
+#include "hi.hpp"
 
 void yingshaoxo() {
     printf("cpp: 'hi, yingshaoxo!'\n");
