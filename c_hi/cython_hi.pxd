@@ -1,7 +1,7 @@
 from libcpp.string cimport string
 from libcpp.vector cimport vector
 
-cdef extern from 'hi.cpp':
+cdef extern from 'hi.hpp':
     void yingshaoxo();
     void take_a_bytes_string(const char text[]);
     void take_another_bytes_string(string text);

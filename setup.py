@@ -17,7 +17,7 @@ setup(
     ext_modules=cythonize([
         Extension(
             'justatest.hi_library_from_cpp',
-            sorted(['c_hi/cython_hi.pyx']),
+            sorted(['c_hi/cython_hi.pyx', 'c_hi/hi.cpp']),
             include_dirs=[
                 # c/cpp defination includes folder path
             ],
