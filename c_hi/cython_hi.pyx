@@ -13,3 +13,9 @@ def give_me_a_string(text):
 def give_me_a_list_of_string(a_list):
     a_list = [text.encode('UTF-8') for text in a_list]
     the_c_lib.take_an_string_array(a_list)
+
+def give_me_a_list_of_integer(a_list):
+    the_c_lib.take_an_int_array(a_list)
+
+def split_int_list(a_list):
+    return the_c_lib.split_int_array(a_list)
